@@ -43,7 +43,7 @@
 .kind-item {
     text-align: center;
     margin-bottom: 0.625rem;
-    width:18.75rem;
+    flex-basis: 40%;
 }
 
 .kind-item:last-child {
@@ -77,15 +77,15 @@
         margin-bottom: 0;
     }
 
-    .kinds-tour {
-        max-width:56rem;
-        margin: auto;
-    }
 }
 
 @media (min-width: 1200px) {
     .kinds-tour {
         max-width: none;
+    }
+
+    .kind-item {
+        flex-basis: 30%;
     }
 
     .kind-item:nth-last-child(-n+3) {
