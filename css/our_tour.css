@@ -36,8 +36,8 @@
 
 .kinds-tour {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
 }
 
 .kind-item {
@@ -65,4 +65,30 @@
     line-height: 1.278;
     text-align: center;
     color: #525151;
+}
+
+@media (min-width: 768px) {
+    .kinds-tour {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .kind-item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .kinds-tour {
+        max-width:56rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .kinds-tour {
+        max-width: none;
+    }
+
+    .kind-item:nth-last-child(-n+3) {
+        margin-bottom: 0;
+    }
 }
