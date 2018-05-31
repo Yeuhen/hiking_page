@@ -52,3 +52,26 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .wrapper-testimonials {
+        padding-top: 7.25rem;
+        padding-bottom: 4.25rem;
+    }
+
+    .title {
+        font-size: 2.625rem;
+    }
+
+    .name {
+        margin: 2rem 0 1.5rem;
+        font-size: 1.5rem;
+    }
+    .text{
+        width: 50%;
+        margin: auto;
+        font-size: 1.5rem;
+
+    }
+}
+
+

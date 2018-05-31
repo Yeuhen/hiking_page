@@ -28,7 +28,7 @@
 .tour {
     text-transform: uppercase;
     font-size: 1.125rem;
-    line-height: 3.5625rem;
+    /*line-height: 3.5625rem;*/
     color: rgb(213, 66, 58);
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -60,5 +60,24 @@
         margin: auto;
         margin-bottom: 2rem;
     }
-    
+
+}
+
+@media (min-width: 1200px) {
+    .wrapper-events{
+        padding-top: 7.75rem;
+        padding-bottom: 8.625rem;
+    }
+
+    .box{
+        display: flex;
+        width: 83%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .different-event {
+        margin: 0;
+        width: 31%;
+    }
+
 }
