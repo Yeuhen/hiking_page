@@ -8,3 +8,9 @@
 @import "events.css";
 @import "contact.css";
 @import "footer.css";
+
+@font-face {
+    src: url(../fonts/MyriadPro.otf)format('otf');
+    font-family: 'MyriadPro';
+    font-weight: 400;
+}

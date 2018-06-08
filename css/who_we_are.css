@@ -1,0 +1,35 @@
+.wrapper-we {
+    background-color: #ffffff;
+    padding: 3.5rem 0 4rem;
+}
+
+.title-about {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:3.625rem;
+}
+
+.title-about:after {
+    display: block;
+    content: '';
+    width: 9.375rem;
+    height: 0.125rem;
+    background-color: #d5423a;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translateX(-50%)
+}
+
+.text-about {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1.778;
+    text-align: center;
+    color: #525151;
+    padding: 0 0.75rem;
+}
