@@ -7,13 +7,13 @@
 }
 
 
-.container {
+.contact {
  display: none;
 }
 
 @media (min-width: 968px) {
 
-.container {
+.contact {
     display: block;
 }
 

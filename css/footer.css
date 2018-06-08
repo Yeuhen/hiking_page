@@ -1,10 +1,11 @@
-.container {
+
+footer {
     display: none;
 }
 
 @media (min-width: 968px) {
 
-    .container {
+    footer {
         display: block;
     }
 
