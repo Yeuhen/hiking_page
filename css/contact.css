@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container {
+ display: none;
+}
+
+@media (min-width: 968px) {
+
+.container {
+    display: block;
+}
+
+.wrapper-contact {
+    background-color: #ffffff;
+    padding: 3.5rem 0 4rem;
+}
+
+
+.contact {
+    display: block;
+}
+
+.h2-contact {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.44rem;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 9rem;
+}
+
+.h2-contact:after {
+    display: block;
+    content: '';
+    width: 9.375rem;
+    height: 0.125rem;
+    background-color: #d5423a;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translateX(-50%);
+}
+.form {
+    /*display: flex;*/
+    /*justify-content:space-between;*/
+    margin: auto;
+    width: 60.625rem;
+}
+
+input, textarea {
+    display: block;
+    border: none;
+    border-bottom: 0.0625rem solid #cccccc;
+    width: 100%;
+    margin-top: 7.5rem;
+}
+
+.body-cont, .body-cont-2 {
+    flex-basis: 48%;
+
+}
+
+#name, #email {
+    margin-bottom: 3.56rem;
+}
+
+
+/*[id="email"] {*/
+    /*margin-bottom: 3.55rem;*/
+    /*outline: none;*/
+    /*border: none;*/
+    /*border-bottom: 0.125rem solid #000000;*/
+
+
+/*[id="tour-package"] {*/
+    /*margin-bottom: 3.55rem;*/
+    /*outline: none;*/
+    /*border: none;*/
+    /*border-bottom: 0.125rem solid #000000;*/
+
+.form-body-cont {
+    display: flex;
+    justify-content: space-between;
+    /*margin: auto;*/
+    /*width: 50%;*/
+}
+/*overlay none*/
+/*border none*/
+/*borden line*/
+.body-cont-foot {
+    width: 100%;
+    }
+
+#submit {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color: #d5423a;
+    padding: 1.2rem 7.9rem;
+    border-radius: 2rem;
+    margin-top: 3.25rem;
+}
+
+}
